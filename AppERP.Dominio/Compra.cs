@@ -15,7 +15,10 @@ namespace AppERP.Dominio
         public string concepto { get;set;}
         public decimal subtotal { get;set;}
         public decimal total { get;set;}
+        public Boolean anulado { get; set; } = false;
 
         public List<CompraDetalle> CompraDetalles { get;set;}
+
+        
     }
 }

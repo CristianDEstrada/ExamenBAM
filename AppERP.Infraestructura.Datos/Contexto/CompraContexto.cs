@@ -18,7 +18,7 @@ namespace AppERP.Infraestructura.Datos.Contexto
 
         protected override void OnConfiguring(DbContextOptionsBuilder options) 
         {
-            options.UseSqlServer("Server=colegiodb.database.windows.net;Database=ExamenBD;User Id=admindba;Password=Colegio.12345;");
+            options.UseSqlServer("Server=exmanbamvm.database.windows.net;Database=examenbam;User Id=admindbam;Password=B123456789a;");
 
         }
 
