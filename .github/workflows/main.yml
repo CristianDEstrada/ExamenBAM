@@ -26,7 +26,7 @@ jobs:
         run: dotnet restore ./ExamenBAM.sln
         
       - name: Build
-        run: dotnet build ./ExamenBam.sln --configuration Release --no-restore
+        run: dotnet build ./ExamenBAM.sln --configuration Release --no-restore
         
       - name: Publish
         run: dotnet publish ./ExamenBam.sln --configuration Release --no-build --output '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}'
