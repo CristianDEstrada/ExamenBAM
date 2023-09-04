@@ -12,11 +12,12 @@ namespace AppERP.Infraestructura.Datos
     {
         static void Main(string[] args)
         {
+        /*
             Console.WriteLine("Creando la BD si no existe...");
             CompraContexto db = new CompraContexto();
             db.Database.EnsureCreated();
             Console.WriteLine("Listo");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
         }
     }
